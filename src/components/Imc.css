@@ -1,0 +1,60 @@
+.Container {
+    width: 35%;
+    height: 500px;
+    margin: 50px auto;
+    padding: 80px;
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.typecontainer {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0 5px;
+    color: black;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: black;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+}

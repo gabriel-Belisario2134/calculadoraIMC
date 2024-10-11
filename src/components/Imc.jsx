@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './imc.css';
 
 const Imc = () => {
     const [peso, setPeso] = useState("");
@@ -21,13 +22,13 @@ const Imc = () => {
     return (
         <div className='Container'> 
             <div>
-                <h1>Calculadora de IMC</h1>
+                <h1>Calculadora de IMC 🏋️‍♂️</h1>
             </div>
             <div className='typecontainer'>
-                <p>Peso (kg)</p>
-                <input type="number" placeholder="peso (kg)" value={peso} onChange={(e) => setPeso(e.target.value)} /> 
-                <p>Altura (m)</p>
-                <input type="number" placeholder="altura (m)" value={altura} onChange={(e) => setAltura(e.target.value)} />
+                <p>Peso ⚖️(kg)</p>
+                <input type="number" placeholder="Peso (kg)" value={peso} onChange={(e) => setPeso(e.target.value)} /> 
+                <p>Altura 📏(m)</p>
+                <input type="number" placeholder="Altura (m)" value={altura} onChange={(e) => setAltura(e.target.value)} />
             </div>  
             <button onClick={calculeimc}>Calcular</button>
             <h2>Seu IMC é: {resultado}</h2>
